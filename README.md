@@ -2,7 +2,7 @@
 
 ## Thông tin chung
 - **Trường:** Đại học Công nghệ Sài Gòn
-- **Niên khóa:** 2024 - 2025
+- **Niên khóa:** 2023 - 2024
 - **Tác giả:** Trần Đức Thiều
 - **Chủ đề:** Website Quản lý Nhà hàng (Food & Beverage)
 
