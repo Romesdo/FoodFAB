@@ -1,0 +1,75 @@
+
+.c-item{
+    height: 680px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Slide 1 */
+.carousel-caption.slide1{
+    position: absolute;
+    top: 57%; 
+    left: 20px;
+    transform: translateY(-50%); 
+    text-align: left; 
+}
+
+.button-container-13{
+    margin-left: 120px;
+}
+
+.btn.btn-primary {
+    background-color: firebrick;
+    color: white; 
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50px;
+  }
+
+  .btn.btn-secondary {
+    background-color: white;
+    color: black; 
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50px;
+  }
+  .btn:hover{
+    background-color: #fac031 !important;
+    border-color: black !important;
+    color: black !important;
+    font-weight: 600 !important;
+  }
+
+
+  /* Slide 2 */
+.carousel-caption.slide2{
+    position: absolute;
+    top: 55%;
+    left: 650px;
+    transform: translateY(-50%); 
+    text-align: center; 
+}
+
+
+/* Slide 3 */
+.carousel-caption.slide3{
+    position: absolute;
+    top: 57%; 
+    left: 20px;
+    transform: translateY(-50%); 
+    text-align: left; 
+}
+
+.slide3 h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fac031 !important;
+}
+
+.slide3 h2{
+    font-size: 39px;
+    font-weight: 600;
+}

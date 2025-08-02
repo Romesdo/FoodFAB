@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="frmdangkithanhvien"  action="xl_lab03_bai3.php"   method="post" enctype="multipart/form-data">
+        <table border="0">
+            <tr>
+                <td colspan="2" align="center"><b> THÊM SẢN PHẨM MỚI</b></td>
+                
+            </tr>
+            <tr>
+                <td>Mã sản phẩm</td>
+                <td><input type="text" name="nmProID" id=""></td>
+            </tr>
+            <tr>
+                <td>Tên sản phẩm</td>
+                <td><input type="text" name="nmProName" id=""></td>
+            </tr>
+            <tr>
+                <td>Hình ảnh </td>
+                <td><input type="file" name="nmProImg" id="" accept="image/*"></td>
+            </tr>
+            <tr>
+                <td>Hãng sản xuất</td>
+                <td><select name="nmMan" id="">
+                    <option value="">Thiên long</option>
+                    <option value="">Deli</option>
+                    <option value="">KLONG</option>
+                    <option value="">Lazy Box</option>
+                    <option value="">M&G</option>
+                    <option value="">CHONMUA 365</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Kích thước</td>
+                <td>W: <input type="number" name="nmW" id="" accept="number">H: <input type="text" name="nmH" id="">mm</td>
+            </tr>
+            <tr>
+                <td>Số trang</td>
+                <td><input type="number" name="nmCount" id=""> trang</td>
+            </tr>
+            <tr>
+                <td>Tác giả</td>
+                <td><input type="text" name="nmTacGia" id=""></td>
+            </tr>
+            <tr>
+                <td>Giá</td>
+                <td><input type="number" name="nmPrice" id="">Màu: <input type="color" name="nmColor" id=""></td>
+            </tr>
+            <tr>
+                <td>Xuất xứ </td>
+                <td><input type="text" name="nmLive" id=""></td>
+            </tr>
+            <tr>
+                <td>Thể loại</td>
+                <td>
+                    <div style="float: left;"><input type="checkbox" name="" id="">Văn học <br><input type="checkbox" name="" id="">Kinh tế <br><input type="checkbox" name="" id="">Tâm lí</div>
+                    <div style="float: left;"><input type="checkbox" name="" id="">Thiếu nhi <br><input type="checkbox" name="" id="">Giáo khoa <br><input type="checkbox" name="" id="">Ngoại ngữ</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Mô tả chi tiết</td>
+                <td><textarea name="" id="" cols="30" rows="7"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><input style="margin: 10px;" type="submit" value="Thêm"><input type="button" value="Xóa"></td>
+                
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
